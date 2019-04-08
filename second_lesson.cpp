@@ -26,7 +26,7 @@ int main() {
 		}
 
 	}
-	else printf("\nSorry, we don`t have roots");
+	else {	printf("\nSorry, we don`t have roots");	}
 
 	system("pause");
 	return 0;
