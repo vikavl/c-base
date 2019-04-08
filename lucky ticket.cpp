@@ -1,7 +1,7 @@
 #include <iostream>
 #include <conio.h>
 
-int func(int temp) { //sum of 3-digit number (in elements)
+int summary(int temp) { //sum of 3-digit number (in elements)
 	int sum = 0;
 	sum = (temp / 100) + ((temp / 10) - ((temp / 100) * 10)) + (temp - ((temp / 10) * 10));
 	return sum;
@@ -21,8 +21,8 @@ int main() {
 		int sum2 = 0;
 		int temp1 = n / 1000;
 		int temp2 = n % 1000;
-		sum1 = func(temp1);
-		sum2 = func(temp2);
+		sum1 = summary(temp1);
+		sum2 = summary(temp2);
 		if (sum1 == sum2) {
 			std::cout << "Congrats! You have lucky ticket!" << std::endl;
 		}
