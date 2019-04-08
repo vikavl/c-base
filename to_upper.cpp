@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string.h>
 #include <conio.h>
 
 const int SIZE = 255;
